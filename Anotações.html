@@ -1,0 +1,33 @@
+<!-- CSS Grid Layout -->
+<!-- Aula 3 Atividade 3 -->
+<!--  
+
+   
+- Definir que o elemento pai vai ser um grid container: 
+    display:grid 
+
+- Definir as areas do template, na ordem que deveme star posicionadas: grid-template-areas: "areas-do-site"
+    grid-template-areas:
+    "cabecalho cabecalho"
+    "conteudoPrincipal conteudoSecundario"
+    "rodape rodape"
+
+- Definir o tamanho das colunas/linhas
+    grid-template-coluns: auto 40%;
+    grid-template-row: 50px auto auto
+
+- Fazer uma associação entre o elemento html que representa as areas que foram criadas. Ex:
+    .cabecalho{grid-area: cabecalho}
+    .conteudoPrincipal{grid-area: conteudoPrincipal}
+    .conteudoSecundario{grid-area: conteudoSecundario}
+    .rodape{grid-area: rodape}
+
+- Quando quiser que uma parte da pagina ocupe mais que um modulo devemos informar o modulo inicio~~final
+    .conteudo {
+        grid-column: 1 / 4; 
+        grid-row: 1 / 3;
+    }
+    Conteudo irá ocupar a coluna 1 até a 4 e a linha 1 até a 3
+
+-
+-->

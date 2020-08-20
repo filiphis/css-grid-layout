@@ -1,14 +1,44 @@
 .app {
     background: #f1f1f1;
-    display: grid;  
     font-family: Arial, Helvetica, sans-serif;
+    
+    display: grid;  
+    
+    grid-template-areas: 
+        "cabecalho"
+        "conteudo"
+        "rodape" 
+    ;
+
+    grid-template-columns: auto;
+    /* grid-template-columns: [first] auto [line2] 50% [line3] auto; */
+    grid-template-rows: 50px auto 50px;
 }
 
 .cabecalho {
+    grid-area: cabecalho;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(36, 204, 182, .7);
 }
  
 .conteudo {
+    grid-area: conteudo;
 }
 
 .rodape {
+    grid-area: rodape;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(75, 204, 36, .7);
+}
+
+.aside {
+    grid-area: aside;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(204, 131, 36, 0.7);
 }

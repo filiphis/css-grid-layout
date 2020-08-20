@@ -5,7 +5,7 @@
 
 Visualize o projeto em: https://filiphis.github.io/css-grid-layout
 
-![Design preview Alura Store](./design/preview.jpg)
+![Design preview Alura Store](./design/preview.png)
 
 ## Descrição
 
