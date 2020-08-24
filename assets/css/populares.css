@@ -1,10 +1,10 @@
 .populares {
-  padding: 3rem 2rem;
+  padding: 3rem 0rem;
 }
 
 .populares__conteudo {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
   grid-area: conteudo;
   padding: 1rem 0;
