@@ -24,6 +24,17 @@
     grid-row: none;
   }
 
+  .populares__conteudo {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .populares__card {
+    width: 100%;
+    max-width: 450px;
+    margin-bottom: 3rem;
+  }
+
 }
 
 @media screen and (min-width: 768px) {
@@ -54,11 +65,39 @@
   .destaques__categorias{
     grid-column: 1 / 3;
   }
+
+  .populares__conteudo {
+    flex-direction: row;
+    align-items: inherit;
+  }
+
+  .populares__card {
+    width: calc(50% - 1rem);
+    margin-bottom: 3rem;
+    grid-template-rows: 173px auto;
+
+  }
 }
 
 @media screen and (min-width: 992px) {
+  .populares__conteudo {
+    justify-content: space-between;
+  }
 
+  .populares__card {
+    width: calc(33.33% - 1rem);
+    margin-bottom: 3rem;
+    margin-right: 1rem;
+
+  }
 }
 @media screen and (min-width: 1200px) {
+  .populares__card {
+    width: calc(20% - 1rem);
+    margin-bottom: 0;
+  }
 
+  .populares__card:last-child{
+    margin-right: 0;
+  }
 }
