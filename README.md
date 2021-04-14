@@ -2,6 +2,7 @@
 <!-- :construction: -->
 # Estudo sobre Grid CSS
 > **_Status:_** Finalizado :heavy_check_mark:
+> Projeto desenvolvido durante o curso: https://filiphis.github.io/css-grid-layout/
 
 <!-- > **_Status:_** Em andamento :construction: -->
 
